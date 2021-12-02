@@ -1,0 +1,37 @@
+.contact {
+    text-align: center;  
+    .contact__item {
+        font-size: 15px;
+        font-weight: 600;
+        @include desktop {
+            font-size: 30px;
+
+        }
+    }    
+    p {
+        margin: 2px;        
+        font-size: 10px;
+
+        @include desktop {
+            margin: 5px;            
+            font-size: 15px;
+        }
+     }
+     a {
+        font-size: 10px; 
+        text-decoration: none;
+        color: $color-orange;
+        
+        @include desktop{
+            font-size: 15px; 
+            text-decoration: none;
+            color: $color-orange;
+
+        }
+
+        &:hover{
+            text-shadow: 1px 1px 1px $color-red-principal;
+            
+        }
+     }    
+}

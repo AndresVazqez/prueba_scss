@@ -1,0 +1,42 @@
+
+nav {    
+    position: fixed;
+    background-color: $color-red-principal;
+    width: 100vw;
+    z-index:10;  
+      
+}
+
+.navBar {
+    height: 70px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+
+    .navBar__item {
+        padding: 6px;
+
+        a {
+            font-size: 10px;
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Oxygen', sans-serif;
+
+            @include desktop {
+        
+                font-size: 15px;
+
+                &:hover {
+                    color: $color-orange;
+                }
+
+            }        
+
+            
+        }
+
+    }
+    
+   
+}
