@@ -208,6 +208,7 @@ nav {
   text-align: center;
   color: white;
   background: #9d0208;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: 992px) {

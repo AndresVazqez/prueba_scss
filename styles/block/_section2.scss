@@ -34,6 +34,7 @@
         text-align: center;
         color: white;
         background: $color-red-principal;
+        text-transform: uppercase;
 
         @include desktop {
             font-size: 18px;
